@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/app_line"
+   android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/app_img"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/app_icon" />
+
+    <Button
+        android:id="@+id/buy_btn"
+        android:layout_width="70dp"
+        android:layout_height="36dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_style"
+        android:text="限时免费"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/app_img"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/app_desc_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="游戏名称"
+            android:textColor="#222222"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/app_desc_content"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="游戏一句话简介，不能太多了吗。"
+            android:textColor="#bfbfbf"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" >
+
+            <RatingBar
+                android:id="@+id/rating_num"
+                style="@style/bestratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:numStars="5"/>
+
+            <TextView
+                android:id="@+id/download_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="4000+下载"
+                android:textColor="#bfbfbf"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
