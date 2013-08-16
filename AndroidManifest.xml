@@ -24,6 +24,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.game.zone.view.NewListActivity"/>
+        <activity android:name="com.game.zone.view.HotGameActivity"/>
     </application>
 
 </manifest>

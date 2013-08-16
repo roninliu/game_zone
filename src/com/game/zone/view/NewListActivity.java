@@ -7,7 +7,9 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -16,6 +18,7 @@ import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class NewListActivity extends Activity {
@@ -52,12 +55,26 @@ public class NewListActivity extends Activity {
 		
 		for(int i=0;i<5;i++){
 			RelativeLayout app_item_layout = (RelativeLayout) inflater.inflate(R.layout.app_list_layout, null);
-			
+			TextView tv = (TextView) app_item_layout.findViewById(R.id.app_desc_name);
+			tv.setText("我是测试APP");
+			app_item_layout.setOnClickListener(new OnClickListener() {
+				
+				@Override
+				public void onClick(View v) {
+					TextView ts = (TextView) v.findViewById(R.id.app_desc_name);
+					ts.setText("正式APP");
+					
+				}
+			});
 			linlayout.addView(app_item_layout);
+			
+			
 		}
 		
 	}
-
+	
+	
+	
 	public class ImageAdapter extends BaseAdapter {
 		// 声明一个变量
 		int mGalleryItemBackGround;

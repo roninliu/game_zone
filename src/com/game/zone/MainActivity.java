@@ -1,11 +1,10 @@
 package com.game.zone;
 
+import com.game.zone.view.HotGameActivity;
 import com.game.zone.view.NewListActivity;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.app.ActivityGroup;
-import android.app.TabActivity;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -56,7 +55,7 @@ public class MainActivity extends ActivityGroup {
 		tabHost.setup(this.getLocalActivityManager());
 		
 		tabHost.addTab(tabHost.newTabSpec(TAB_TAG_NEW_LIST).setIndicator(newListTab).setContent(new Intent(this,NewListActivity.class)));
-		tabHost.addTab(tabHost.newTabSpec(TAB_TAG_HOT_GAME).setIndicator(hotGameTab).setContent(R.id.tab2));
+		tabHost.addTab(tabHost.newTabSpec(TAB_TAG_HOT_GAME).setIndicator(hotGameTab).setContent(new Intent(this,HotGameActivity.class)));
 		tabHost.addTab(tabHost.newTabSpec(TAB_TAG_MY_CENTER).setIndicator(myCenterTab).setContent(R.id.tab3));
 
 		

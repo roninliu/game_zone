@@ -18,7 +18,7 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:background="@drawable/button_style"
-        android:text="限时免费"
+        android:text="@string/for_free_txt"
         android:textSize="12sp" />
 
     <LinearLayout
