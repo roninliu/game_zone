@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.game.zone"
     android:versionCode="1"
-    android:versionName="1.1" >
+    android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -25,6 +25,7 @@
         </activity>
         <activity android:name="com.game.zone.view.NewListActivity"/>
         <activity android:name="com.game.zone.view.HotGameActivity"/>
+        <activity android:name="com.game.zone.view.MyCenterActivity"/>
     </application>
 
 </manifest>

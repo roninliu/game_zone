@@ -1,6 +1,7 @@
 package com.game.zone;
 
 import com.game.zone.view.HotGameActivity;
+import com.game.zone.view.MyCenterActivity;
 import com.game.zone.view.NewListActivity;
 
 import android.os.Bundle;
@@ -56,7 +57,7 @@ public class MainActivity extends ActivityGroup {
 		
 		tabHost.addTab(tabHost.newTabSpec(TAB_TAG_NEW_LIST).setIndicator(newListTab).setContent(new Intent(this,NewListActivity.class)));
 		tabHost.addTab(tabHost.newTabSpec(TAB_TAG_HOT_GAME).setIndicator(hotGameTab).setContent(new Intent(this,HotGameActivity.class)));
-		tabHost.addTab(tabHost.newTabSpec(TAB_TAG_MY_CENTER).setIndicator(myCenterTab).setContent(R.id.tab3));
+		tabHost.addTab(tabHost.newTabSpec(TAB_TAG_MY_CENTER).setIndicator(myCenterTab).setContent(new Intent(this,MyCenterActivity.class)));
 
 		
 	}
