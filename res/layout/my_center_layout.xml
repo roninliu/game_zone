@@ -12,30 +12,56 @@
         <RadioButton
             android:id="@+id/download_manager"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="34dp"
             android:layout_weight="1"
-            android:checked="true"
-            android:text="@string/app_download_managr_txt" />
+            android:background="@drawable/radio_button_style"
+            android:button="@null"
+            android:drawableLeft="@drawable/icon_download"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:text="@string/app_download_managr_txt"
+            android:textColor="#222"
+            android:textSize="12sp" />
+        <View android:layout_width="1dp"
+            android:layout_height="34dp"
+            android:background="#d3d1d1"/>
 
         <RadioButton
             android:id="@+id/app_update"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="34dp"
             android:layout_weight="1"
-            android:text="@string/app_update_txt" />
+            android:background="@drawable/radio_button_style"
+            android:button="@null"
+            android:drawableLeft="@drawable/icon_update"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:text="@string/app_update_txt"
+            android:textColor="#222"
+            android:textSize="12sp" />
+         <View android:layout_width="1dp"
+            android:layout_height="34dp"
+            android:background="#d3d1d1"/>
 
         <RadioButton
             android:id="@+id/my_account_setting"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="34dp"
             android:layout_weight="1"
-            android:text="@string/accout_setting_txt" />
+            android:background="@drawable/radio_button_style"
+            android:button="@null"
+            android:drawableLeft="@drawable/icon_setting"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:text="@string/accout_setting_txt"
+            android:textColor="#222"
+            android:textSize="12sp" />
     </RadioGroup>
 
     <ScrollView
         android:id="@+id/my_center_content"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/my_center_group" >
 
@@ -43,92 +69,7 @@
             android:id="@+id/my_center_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
-
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-        </LinearLayout>
+            android:orientation="vertical" />
     </ScrollView>
 
 </RelativeLayout>

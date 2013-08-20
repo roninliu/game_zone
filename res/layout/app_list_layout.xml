@@ -9,7 +9,7 @@
         android:id="@+id/app_img"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:src="@drawable/app_icon" />
+        android:src="@drawable/app_icon"/>
 
     <Button
         android:id="@+id/buy_btn"

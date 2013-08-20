@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 public class MyCenterActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
@@ -16,7 +17,7 @@ public class MyCenterActivity extends Activity {
 		final LayoutInflater inflater = LayoutInflater.from(this);
 		final LinearLayout linlayout = (LinearLayout)findViewById(R.id.my_center_container);
 		
-		LinearLayout my_center_home = (LinearLayout) inflater.inflate(R.layout.my_center_home_layout, null);
+		RelativeLayout my_center_home = (RelativeLayout) inflater.inflate(R.layout.my_center_home_layout, null);
 		linlayout.addView(my_center_home);
 	}
 }
