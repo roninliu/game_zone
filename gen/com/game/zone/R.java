@@ -49,7 +49,7 @@ public final class R {
     }
     public static final class id {
         public static final int account_balance_title=0x7f080012;
-        public static final int action_settings=0x7f080023;
+        public static final int action_settings=0x7f080024;
         public static final int app_desc=0x7f080009;
         public static final int app_desc_content=0x7f080003;
         public static final int app_desc_name=0x7f080002;
@@ -59,31 +59,32 @@ public final class R {
         public static final int app_logo=0x7f080006;
         public static final int app_model_title=0x7f08000c;
         public static final int app_name=0x7f080008;
-        public static final int app_update=0x7f08001c;
-        public static final int button1=0x7f080017;
+        public static final int app_update=0x7f08001d;
         public static final int buy_btn=0x7f080001;
-        public static final int download_manager=0x7f08001b;
+        public static final int buy_history_title=0x7f080016;
+        public static final int download_manager=0x7f08001c;
         public static final int download_num=0x7f080005;
         public static final int hot_game_banner=0x7f08000a;
-        public static final int line_1=0x7f080011;
-        public static final int line_2=0x7f080016;
+        public static final int linearLayout1=0x7f080011;
         public static final int login_btn=0x7f080007;
-        public static final int money=0x7f080013;
-        public static final int money_price=0x7f080015;
-        public static final int my_account_setting=0x7f08001d;
+        public static final int my_account_setting=0x7f08001e;
         public static final int my_accout_title=0x7f080010;
-        public static final int my_center_container=0x7f08001f;
-        public static final int my_center_content=0x7f08001e;
-        public static final int my_center_group=0x7f08001a;
-        public static final int new_list_gallery=0x7f080020;
+        public static final int my_center_container=0x7f080020;
+        public static final int my_center_content=0x7f08001f;
+        public static final int my_center_group=0x7f08001b;
+        public static final int new_list_gallery=0x7f080021;
+        public static final int number_txt=0x7f080019;
+        public static final int number_unit=0x7f080017;
+        public static final int price=0x7f080015;
+        public static final int price_unit=0x7f080013;
         public static final int rating_num=0x7f080004;
+        public static final int recharge_btn=0x7f08001a;
         public static final int recharge_history_btn=0x7f080014;
-        public static final int tab_icon=0x7f080021;
-        public static final int tab_text=0x7f080022;
+        public static final int select_history_btn=0x7f080018;
+        public static final int tab_icon=0x7f080022;
+        public static final int tab_text=0x7f080023;
         public static final int tabhost=0x7f08000f;
         public static final int textView1=0x7f08000b;
-        public static final int textView2=0x7f080018;
-        public static final int textView3=0x7f080019;
     }
     public static final class layout {
         public static final int app_list_layout=0x7f030000;
