@@ -26,6 +26,7 @@
         <activity android:name="com.game.zone.view.NewListActivity"/>
         <activity android:name="com.game.zone.view.HotGameActivity"/>
         <activity android:name="com.game.zone.view.MyCenterActivity"/>
+        <activity android:name="com.game.zone.view.AppDetailActivity"/>
     </application>
 
 </manifest>

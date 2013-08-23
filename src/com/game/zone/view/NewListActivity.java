@@ -4,6 +4,7 @@ import com.game.zone.R;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -60,9 +61,8 @@ public class NewListActivity extends Activity {
 				
 				@Override
 				public void onClick(View v) {
-					TextView ts = (TextView) v.findViewById(R.id.app_desc_name);
-					ts.setText("ÕýÊ½APP");
-					
+					Intent it = new Intent(NewListActivity.this,AppDetailActivity.class);
+					startActivity(it);
 				}
 			});
 			linlayout.addView(app_item_layout);
